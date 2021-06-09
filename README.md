@@ -16,7 +16,7 @@ $ pip install streamlit
 $ git clone https://github.com/Hongyanlee0614/Streamlit.git
 ```
 
-#### Or you can go to [this link](https://github.com/Hongyanlee0614/Streamlit) and download the zip file for entire repo
+#### Or you can go to [this link](https://github.com/Hongyanlee0614/penguins-classification) and download the zip file for entire repo
 
 #### After that, open the clonned or unzipped Streamlit folder in your preferred editor (e.g. VS Code)
 
