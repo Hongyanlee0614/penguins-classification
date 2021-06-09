@@ -1,5 +1,7 @@
 # Penguin Classification
 
+### View the deployed website [here](https://hy-penguins-classification.herokuapp.com/)
+
 ![SS1](https://github.com/Hongyanlee0614/penguins-classification/blob/main/ss.PNG)
 
 ## Install
