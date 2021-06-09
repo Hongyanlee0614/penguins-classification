@@ -1,6 +1,6 @@
 # Penguin Classification
 
-![SS1](https://github.com/Hongyanlee0614/Streamlit/blob/main/Penguin%20Classification/ss.PNG)
+![SS1](https://github.com/Hongyanlee0614/penguins-classification/blob/main/ss.PNG)
 
 ## Install
 
