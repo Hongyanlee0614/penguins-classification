@@ -1,14 +1,47 @@
-# Penguins web app deployed on Heroku
+# Penguin Classification
 
-Check out the YouTube video showing the development of this web app at https://youtu.be/zK4Ch6e1zq8
+![SS1](https://github.com/Hongyanlee0614/Streamlit/blob/main/Penguin%20Classification/ss.PNG)
 
-The deployed web app is live at https://dp-penguins.herokuapp.com/
+## Install
 
-This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island).
+#### Open your conda's terminal and run the following:
 
-The web app was built in Python using the following libraries:
-* streamlit
-* pandas
-* numpy
-* scikit-learn
-* pickle
+```
+$ pip install streamlit
+```
+
+#### Clone this repo using the following command:
+
+```
+$ git clone https://github.com/Hongyanlee0614/Streamlit.git
+```
+
+#### Or you can go to [this link](https://github.com/Hongyanlee0614/Streamlit) and download the zip file for entire repo
+
+#### After that, open the clonned or unzipped Streamlit folder in your preferred editor (e.g. VS Code)
+
+
+```
+$ cd '.\Penguin Classification\'
+```
+
+#### Run the following command to generate the pickle file so we no need to train the model each time we change the streamlit parameter input. Note that there is a pickle file once you have clonned this repo. You can delete it at first to build from your own.
+
+```
+$ streamlit run penguins-model-building.py
+```
+
+#### Now a pickle file named penguins_clf.pkl is generated. Run the following command to start working on/customizing the main file - penguins-app.py!
+
+```
+$ streamlit run penguins-app.py
+```
+
+#### Open [http://localhost:8501](http://localhost:8501) with your browser to see the result.
+
+
+## References
+- Data Professor ([Link to YouTube channel](https://www.youtube.com/channel/UCV8e2g4IWQqK71bbzGDEI4Q))
+- Pratik Mukherjee ([Link to Kaggle Notebook](https://www.kaggle.com/pratik1120/penguin-dataset-eda-classification-and-clustering))
+- Allison Horst ([Link to Data Source](https://github.com/allisonhorst/palmerpenguins)
+
